@@ -1,4 +1,4 @@
-
+#CHALLENGE
 #Given a list of numbers and a number k, 
 #return whether any two numbers from the list add up to k.
 
@@ -6,6 +6,10 @@
 #return true since 10 + 7 is 17
 
 #Bonus - do this in one pass
+
+#NOTES
+#got this running with O(n^2)
+#works for any length of list 
 
 def list_add(x,lis):
     
