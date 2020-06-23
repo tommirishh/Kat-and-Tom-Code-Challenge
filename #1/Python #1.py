@@ -14,10 +14,10 @@ for i in range(len(list)-1):
         if (list[1] + list[i+2]) == num:
             print(list[1], '+', list[i+2], '=', num)
     except:
-        print('out of list range')
+        pass
     try:
         if (list[2] + list[i+3]) == num:
             print(list[2], '+', list[i+3], '=', num)
     except:
-        print('out of list range')
+        pass
 
