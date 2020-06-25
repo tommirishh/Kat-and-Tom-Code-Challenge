@@ -32,5 +32,4 @@ node = Node('root', Node('left', Node('left.left')), Node('right'))
 
 string = []
 
-print node 
-#print(node.deserialize(node.serialize(node, string)).left.left.val)
+print(node.deserialize(node.serialize(node, string)).left.left.val)
