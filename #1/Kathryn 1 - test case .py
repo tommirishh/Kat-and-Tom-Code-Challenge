@@ -24,8 +24,27 @@ for i in range(0,20):
     t.append(t3)
     x.append(500*i)
     
+#same test for improved algorithm    
+r=[]
+z=[]
 
-plt.plot(x,t,"x")
+for i in range(0,20):
+    
+    zi=range(0,500*i)
+    
+    r1=time.time()
+    
+    list_add2(20000,zi)
+    
+    r2=time.time()
+    r3=r2-r1
+    r.append(r3)
+    z.append(500*i)
+    
+#display graph of times
+plt.plot(x,t,"rx",label="Kathryn's original function",)
+plt.plot(z,r,"b+",label="imroved function")
 plt.xlabel("length of list")
 plt.ylabel("time to run function")
-plt.show()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+plt.show()    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
