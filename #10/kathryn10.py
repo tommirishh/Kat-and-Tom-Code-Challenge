@@ -29,4 +29,3 @@ def sumx(x):
         
     return max(inc[-1],exc[-1])
   
-print sumx([2,4,6,2,5])
