@@ -6,8 +6,7 @@ Created on Thu Jul 02 18:11:23 2020
 """
 from kathryn10 import sumx
 import time
-import matplotlib.pyplot as plt
-import numpy as np
+import matplotlib.pyplot as plt'
 
 t=[]
 x=[]
