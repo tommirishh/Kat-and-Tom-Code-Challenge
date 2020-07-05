@@ -42,5 +42,3 @@ def steps2(n):
         j=k
         
     return k 
-
-print steps2(7) 
