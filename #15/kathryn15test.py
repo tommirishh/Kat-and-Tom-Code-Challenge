@@ -1,5 +1,5 @@
 
-from kathryn15 import sample1
+from kathryn15 import sample1, samplek
 
 import matplotlib.pyplot as plt
 import numpy as np
