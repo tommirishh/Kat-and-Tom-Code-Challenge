@@ -4,6 +4,10 @@ Created on Thu Jun 25 16:41:14 2020
 
 @author: kmiri_000
 """
+#Given an array of integers, find the first missing positive integer 
+#in linear time and constant space. In other words, f
+#ind the lowest positive integer that does not exist in the array. 
+#The array can contain duplicates and negative numbers as well.
 
 def lowest_int(k):
     
