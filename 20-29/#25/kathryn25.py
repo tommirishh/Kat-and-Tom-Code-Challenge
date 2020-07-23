@@ -13,31 +13,16 @@ Created on Tue Jul 21 19:20:58 2020
 #and a valid regular expression and returns whether or not the string 
 #matches the regular expression.
 
-#For example, given the regular expression "ra." and the string 
-#"ray", your function should return true. 
-#The same regular expression on the string "raymond" should return false.
 
-#Given the regular expression ".*at" and the string "chat", 
-#your function should return true. The same regular expression on the string 
-#"chats" should return false.
+#python library that supports regular expressions
+import re
 
-#I did this just with '.' to start
-def period(st,ex):
+#implemented using library which already has these functions
+def expmatch(exp,st):
+    match=re.search(exp,st)
     
-    st=list(st)
-    ex=list(ex)
-    
-    if len(st)!=len(ex):
-        return False
-    
-    for i in range(0,len(st)):
-        if st[i]!='.':
-            if st[i]!=ex[i]:
-                return False
-            
-    return True
+    #match.group returns any part of string that matches
+    #check whether it matches whole string
+    return match.group()==st
 
 
-        
-            
-            
